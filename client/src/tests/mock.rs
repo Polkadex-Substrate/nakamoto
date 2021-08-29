@@ -1,7 +1,7 @@
 #![allow(dead_code)]
 use std::net;
 use std::ops::RangeInclusive;
-
+use std::prelude::v1::*;
 use nakamoto_chain::block::Block;
 use nakamoto_chain::filter::BlockFilter;
 

@@ -8,9 +8,9 @@ use std::net;
 use std::ops::RangeInclusive;
 use std::path::PathBuf;
 use std::time::{self, SystemTime};
-
-pub use crossbeam_channel as chan;
-
+use std::prelude::v1::*;
+pub use flume as chan;
+use std::untrusted::time::SystemTimeEx;
 use nakamoto_chain::block::{store, Block};
 use nakamoto_chain::filter;
 use nakamoto_chain::filter::cache::FilterCache;

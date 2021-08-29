@@ -1,7 +1,7 @@
 //! A simple UTXO set.
 use std::collections::HashMap;
 use std::ops::{Deref, DerefMut};
-
+use std::prelude::v1::*;
 use bitcoin::{OutPoint, Script, Transaction, TxOut};
 
 /// A simple UTXO set.

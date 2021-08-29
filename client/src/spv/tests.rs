@@ -38,7 +38,7 @@
 //!
 #![allow(unused_imports)]
 use std::{iter, net, thread};
-
+use std::prelude::v1::*;
 use p2p::protocol::syncmgr;
 use quickcheck::TestResult;
 use quickcheck_macros::quickcheck;

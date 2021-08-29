@@ -1,7 +1,7 @@
 //! Node error module.
 use std::io;
-
-use crossbeam_channel as chan;
+use std::prelude::v1::*;
+use flume as chan;
 use thiserror::Error;
 
 use nakamoto_chain as chain;

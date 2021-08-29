@@ -1,6 +1,6 @@
 //! Client events.
 use std::fmt;
-
+use std::prelude::v1::*;
 use bitcoin::{Transaction, Txid};
 use nakamoto_common::block::{BlockHash, BlockHeader, Height};
 

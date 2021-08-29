@@ -5,7 +5,7 @@ use std::collections::HashMap;
 use std::net;
 use std::thread;
 use std::time;
-
+use std::prelude::v1::*;
 use bitcoin::network::constants::ServiceFlags;
 use nakamoto_chain::block::cache::BlockCache;
 use nakamoto_chain::block::store;

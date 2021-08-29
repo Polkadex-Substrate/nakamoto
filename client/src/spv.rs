@@ -8,7 +8,7 @@ mod tests;
 
 use std::collections::HashSet;
 use std::{fmt, net};
-
+use std::prelude::v1::*;
 use p2p::event::Emitter;
 
 use bitcoin::{Block, Txid};
@@ -20,7 +20,9 @@ use p2p::protocol;
 use crate::client::Event;
 
 /// Transaction status of a given transaction.
-#[derive(Debug, Clone, PartialOrd, Ord, PartialEq, Eq)]
+/// FIXME: Ord and PartialOrd is removed for now since net::SocketAddr doesn't implement these for now
+///     there is a chance of this change breaking something in Nakamoto
+#[derive(Debug, Clone, PartialEq, Eq)]
 pub enum TxStatus {
     /// This is the initial state of a transaction after it has been announced by the
     /// client.

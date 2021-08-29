@@ -2,11 +2,11 @@
 //! protocol instance.
 use std::net;
 use std::ops::{RangeBounds, RangeInclusive};
-
+use std::prelude::v1::*;
 use bitcoin::network::constants::ServiceFlags;
 use bitcoin::network::Address;
 use bitcoin::Script;
-use crossbeam_channel as chan;
+use flume as chan;
 use thiserror::Error;
 
 use nakamoto_common::block::filter::BlockFilter;

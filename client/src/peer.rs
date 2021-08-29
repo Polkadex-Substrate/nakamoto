@@ -2,7 +2,7 @@
 use std::collections::HashMap;
 use std::path::Path;
 use std::{fs, io, net};
-
+use std::prelude::v1::*;
 pub use nakamoto_common::p2p::peer::*;
 
 /// A file-backed implementation of [`Store`].
