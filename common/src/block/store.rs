@@ -1,7 +1,7 @@
 //! Block header storage.
 #![allow(clippy::len_without_is_empty)]
 use crate::block::Height;
-
+use std::prelude::v1::*;
 use bitcoin::blockdata::block::BlockHeader;
 use bitcoin::consensus::encode;
 use bitcoin::hash_types::FilterHash;

@@ -2,7 +2,7 @@
 
 use std::io;
 use std::net;
-
+use std::prelude::v1::*;
 use microserde as serde;
 
 use bitcoin::network::address::Address;

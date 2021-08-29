@@ -5,7 +5,7 @@ use bitcoin::consensus::params::Params;
 use bitcoin::hash_types::BlockHash;
 use bitcoin::network::constants::ServiceFlags;
 use bitcoin_hashes::hex::FromHex;
-
+use std::prelude::v1::*;
 use bitcoin_hashes::sha256d;
 
 use crate::block::Height;

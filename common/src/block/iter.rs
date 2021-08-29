@@ -1,6 +1,6 @@
 //! Double-ended iterator over a `NonEmpty` blockchain.
 use nonempty::NonEmpty;
-
+use std::prelude::v1::*;
 use super::Height;
 
 /// An iterator over a chain.

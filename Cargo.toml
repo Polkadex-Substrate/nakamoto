@@ -32,6 +32,7 @@ default = [
 ]
 
 [dependencies]
+sgx_tstd = { rev = "v1.1.3", git = "https://github.com/apache/teaclave-sgx-sdk.git", features =["backtrace"] }
 nakamoto-common = { version = "0.2.0", path = "./common", optional = true }
 nakamoto-node = { version = "0.2.0", path = "./node", optional = true }
 nakamoto-client = { version = "0.2.0", path = "./client", optional = true }
@@ -40,3 +41,13 @@ nakamoto-p2p = { version = "0.2.0", path = "./p2p", optional = true }
 nakamoto-test = { version = "0.2.0", path = "./test", optional = true }
 nakamoto-wallet = { version = "0.2.0", path = "./wallet", optional = true }
 nakamoto-net-poll = { version = "0.2.0", path = "./net/poll", optional = true }
+
+[patch.'https://github.com/apache/teaclave-sgx-sdk.git']
+sgx_alloc = { git = "https://github.com/apache/incubator-teaclave-sgx-sdk.git"}
+sgx_build_helper = { git = "https://github.com/apache/incubator-teaclave-sgx-sdk.git" }
+sgx_libc = { git = "https://github.com/apache/incubator-teaclave-sgx-sdk.git" }
+sgx_tprotected_fs = { git = "https://github.com/apache/incubator-teaclave-sgx-sdk.git" }
+sgx_trts = { git = "https://github.com/apache/incubator-teaclave-sgx-sdk.git" }
+sgx_tstd = { git = "https://github.com/apache/incubator-teaclave-sgx-sdk.git" }
+sgx_types = { git = "https://github.com/apache/incubator-teaclave-sgx-sdk.git" }
+sgx_unwind = { git = "https://github.com/apache/incubator-teaclave-sgx-sdk.git"}

@@ -1,6 +1,6 @@
 //! P2P-related types
 use std::net;
-
+use std::prelude::v1::*;
 pub mod peer;
 
 /// Communication domain of a network socket.

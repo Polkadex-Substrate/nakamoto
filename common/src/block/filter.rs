@@ -1,6 +1,6 @@
 //! Compact block filter core types and traits.
 #![warn(missing_docs)]
-
+use std::prelude::v1::*;
 use std::ops::Range;
 
 use thiserror::Error;

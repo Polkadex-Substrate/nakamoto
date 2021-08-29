@@ -7,6 +7,7 @@ pub mod store;
 pub mod time;
 pub mod tree;
 
+use std::prelude::v1::*;
 pub use bitcoin::blockdata::block::{Block, BlockHeader};
 pub use bitcoin::blockdata::transaction::Transaction;
 pub use bitcoin::hash_types::BlockHash;

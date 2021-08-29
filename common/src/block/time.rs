@@ -2,7 +2,8 @@
 use std::collections::HashSet;
 use std::hash::Hash;
 use std::time::{SystemTime, UNIX_EPOCH};
-
+use std::prelude::v1::*;
+use std::untrusted::time::SystemTimeEx;
 use super::{BlockTime, Height};
 
 /// Maximum time adjustment between network and local time (70 minutes).

@@ -5,7 +5,7 @@ use std::collections::BTreeMap;
 use bitcoin::blockdata::block::BlockHeader;
 use bitcoin::consensus::params::Params;
 use bitcoin::hash_types::BlockHash;
-
+use std::prelude::v1::*;
 use thiserror::Error;
 
 use crate::block::store;

@@ -1,7 +1,7 @@
 //! Collections used in `nakamoto`.
 use bitcoin_hashes::siphash24::Hash;
 use std::ops::{Deref, DerefMut};
-
+use std::prelude::v1::*;
 use crate::nonempty::NonEmpty;
 
 /// A `HashMap` which uses `fastrand::Rng` for its random state.
