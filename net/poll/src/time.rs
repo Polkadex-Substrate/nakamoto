@@ -1,6 +1,7 @@
 //! Time-related functionality useful for reactors.
 
 pub use nakamoto_common::block::time::{LocalDuration, LocalTime};
+use std::prelude::v1::*;
 
 /// Manages timers and triggers timeouts.
 pub struct TimeoutManager<K> {

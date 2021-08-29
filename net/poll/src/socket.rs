@@ -3,7 +3,7 @@ use std::collections::VecDeque;
 use std::fmt::Debug;
 use std::io::{self, Read, Write};
 use std::net;
-
+use std::prelude::v1::*;
 use bitcoin::consensus::encode::Decodable;
 use bitcoin::consensus::encode::{self, Encodable};
 use bitcoin::network::stream_reader::StreamReader;

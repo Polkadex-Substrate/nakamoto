@@ -1,9 +1,9 @@
 //! Poll-based reactor. This is a single-threaded reactor using a `poll` loop.
 use bitcoin::consensus::encode;
 use bitcoin::network::message::RawNetworkMessage;
-
-use crossbeam_channel as chan;
-
+use std::prelude::v1::*;
+use flume as chan;
+use std::untrusted::time::SystemTimeEx;
 use nakamoto_common::block::filter::Filters;
 use nakamoto_common::block::time::{LocalDuration, LocalTime};
 use nakamoto_common::block::tree::BlockTree;

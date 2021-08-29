@@ -1,4 +1,4 @@
-use std::sync::Mutex;
+use std::sync::SgxMutex as Mutex;
 
 lazy_static! {
     pub(super) static ref FALLIBLE: Mutex<Option<f64>> = Mutex::new(None);
