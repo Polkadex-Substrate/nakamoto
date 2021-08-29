@@ -5,8 +5,8 @@
 //! communicate with the main protocol and network.
 use log::*;
 use std::net;
-
-pub use crossbeam_channel as chan;
+use std::prelude::v1::*;
+pub use flume as chan;
 
 use bitcoin::network::address::Address;
 use bitcoin::network::message::NetworkMessage;

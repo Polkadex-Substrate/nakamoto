@@ -6,7 +6,7 @@ use std::iter;
 use std::net;
 use std::ops::{Bound, Range};
 use std::sync::Arc;
-
+use std::prelude::v1::*;
 use log::*;
 
 use super::{addrmgr, cbfmgr, invmgr, peermgr, pingmgr, syncmgr};

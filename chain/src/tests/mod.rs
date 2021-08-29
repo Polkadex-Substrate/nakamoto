@@ -1,5 +1,5 @@
 use nakamoto_common::block::{Bits, BlockTime, Height};
-
+use std::prelude::v1::*;
 /// Difficulty retargeting test vector, from bitcoin main chain.
 /// Each row represents a difficulty change.
 ///

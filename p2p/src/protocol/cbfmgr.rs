@@ -4,7 +4,7 @@
 //!
 use std::collections::BTreeSet;
 use std::ops::{Bound, Range, RangeInclusive};
-
+use std::prelude::v1::*;
 use thiserror::Error;
 
 use bitcoin::network::constants::ServiceFlags;
@@ -976,7 +976,7 @@ mod tests {
     use bitcoin::network::message_filter::GetCFilters;
     use bitcoin::BlockHeader;
     use bitcoin_hashes::hex::FromHex;
-    use crossbeam_channel as chan;
+    use flume as chan;
 
     use nakamoto_chain::store::Genesis;
     use quickcheck::TestResult;

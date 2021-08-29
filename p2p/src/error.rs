@@ -1,11 +1,11 @@
 //! Peer-to-peer protocol errors.
 
 use bitcoin::consensus::encode;
-
+use std::prelude::v1::*;
 use std::fmt::Debug;
 use std::io;
 
-use crossbeam_channel as crossbeam;
+use flume as crossbeam;
 
 use thiserror::Error;
 

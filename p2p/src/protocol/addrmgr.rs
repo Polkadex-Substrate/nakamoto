@@ -3,7 +3,7 @@
 //!
 #![warn(missing_docs)]
 use std::net;
-
+use std::prelude::v1::*;
 use bitcoin::network::address::Address;
 use bitcoin::network::constants::ServiceFlags;
 
@@ -775,7 +775,7 @@ mod tests {
     use std::collections::HashMap;
     use std::iter;
 
-    use crossbeam_channel as chan;
+    use flume as chan;
     use nakamoto_common::network::Network;
     use quickcheck::TestResult;
     use quickcheck_macros::quickcheck;

@@ -1,7 +1,7 @@
 //! Reactor trait.
 use std::{io, net};
-
-use crossbeam_channel as chan;
+use std::prelude::v1::*;
+use flume as chan;
 
 use nakamoto_common::block::filter::Filters;
 use nakamoto_common::block::tree::BlockTree;

@@ -5,7 +5,7 @@ use std::iter;
 use std::marker::PhantomData;
 use std::mem;
 use std::path::Path;
-
+use std::prelude::v1::*;
 use bitcoin::consensus::encode::{Decodable, Encodable};
 
 use nakamoto_common::block::store::{Error, Store};

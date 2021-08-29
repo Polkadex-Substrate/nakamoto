@@ -1,5 +1,5 @@
 use super::*;
-
+use std::prelude::v1::*;
 use bitcoin::consensus::Params;
 use bitcoin::network::message_network::VersionMessage;
 use bitcoin::network::Address;

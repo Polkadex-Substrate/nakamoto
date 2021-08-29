@@ -3,7 +3,7 @@
 
 use std::io;
 use std::ops::Range;
-
+use std::prelude::v1::*;
 use bitcoin::consensus::{encode, Decodable, Encodable};
 
 pub use nakamoto_common::block::filter::{

@@ -20,7 +20,7 @@
 //! after they are burried at a certain depth.
 //!
 use std::collections::BTreeMap;
-
+use std::prelude::v1::*;
 use bitcoin::network::{constants::ServiceFlags, message_blockdata::Inventory};
 use bitcoin::{Block, BlockHash, Transaction, Txid};
 

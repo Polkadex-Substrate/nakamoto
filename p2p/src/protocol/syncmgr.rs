@@ -4,11 +4,11 @@
 #![warn(missing_docs)]
 use std::sync::Arc;
 use std::time::SystemTime;
-
+use std::prelude::v1::*;
 use bitcoin::consensus::params::Params;
 use bitcoin::network::constants::ServiceFlags;
 use bitcoin::network::message_blockdata::Inventory;
-
+use std::untrusted::time::SystemTimeEx;
 use nakamoto_common::block::store;
 use nakamoto_common::block::time::{Clock, LocalDuration, LocalTime};
 use nakamoto_common::block::tree::{BlockTree, Error, ImportResult};

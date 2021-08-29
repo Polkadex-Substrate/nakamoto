@@ -15,7 +15,7 @@
 //!   4. Expect `verack` message from remote.
 //!
 use std::net;
-
+use std::prelude::v1::*;
 use bitcoin::network::address::Address;
 use bitcoin::network::constants::ServiceFlags;
 use bitcoin::network::message_network::VersionMessage;

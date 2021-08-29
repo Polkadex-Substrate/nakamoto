@@ -6,7 +6,7 @@
 //!
 use std::collections::VecDeque;
 use std::net;
-
+use std::prelude::v1::*;
 use nakamoto_common::block::time::{LocalDuration, LocalTime};
 use nakamoto_common::collections::HashMap;
 

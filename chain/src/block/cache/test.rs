@@ -1,5 +1,5 @@
 use super::BlockCache;
-
+use std::prelude::v1::*;
 use nakamoto_common::block::time::{AdjustedTime, Clock, LocalTime};
 use nakamoto_common::block::tree::{BlockTree, Error, ImportResult};
 use nakamoto_common::block::{BlockTime, Height, Target};

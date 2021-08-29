@@ -1,7 +1,7 @@
 //! Compact block filter store.
 
 use thiserror::Error;
-
+use std::prelude::v1::*;
 pub use nakamoto_common::block::filter::{BlockFilter, FilterHash, FilterHeader, Filters};
 pub use nakamoto_common::block::store::Store;
 

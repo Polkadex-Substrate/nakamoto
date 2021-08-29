@@ -1,8 +1,7 @@
 //! Protocol events.
 use std::net;
-
+use std::prelude::v1::*;
 use bitcoin::network::message::NetworkMessage;
-
 use crate::event::Broadcast;
 use crate::protocol::PeerId;
 use crate::protocol::{addrmgr, cbfmgr, invmgr, peermgr, syncmgr};

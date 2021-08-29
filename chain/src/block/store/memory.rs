@@ -4,7 +4,7 @@ use nakamoto_common::block::store::{Error, Genesis, Store};
 use nakamoto_common::block::Height;
 use nakamoto_common::network::Network;
 use nakamoto_common::nonempty::NonEmpty;
-
+use std::prelude::v1::*;
 /// In-memory block store.
 #[derive(Debug, Clone)]
 pub struct Memory<H>(NonEmpty<H>);

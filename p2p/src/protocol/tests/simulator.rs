@@ -1,6 +1,6 @@
 //! A simple P2P network simulator. Acts as the _reactor_, but without doing any I/O.
 use super::*;
-
+use std::prelude::v1::*;
 use nakamoto_common::collections::HashMap;
 
 use std::collections::BTreeMap;

@@ -1,7 +1,7 @@
 //! Types and utilities related to transaction fees and fee rates.
 use bitcoin::blockdata::constants::WITNESS_SCALE_FACTOR;
 use bitcoin::{OutPoint, Transaction, TxOut};
-
+use std::prelude::v1::*;
 use nakamoto_common::collections::HashMap;
 use nakamoto_common::nonempty::NonEmpty;
 

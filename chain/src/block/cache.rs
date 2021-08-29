@@ -9,7 +9,7 @@ pub mod test;
 
 use std::cmp::Ordering;
 use std::collections::{BTreeMap, BTreeSet, HashMap, VecDeque};
-
+use std::prelude::v1::*;
 use bitcoin::blockdata::block::BlockHeader;
 use bitcoin::consensus::params::Params;
 use bitcoin::hash_types::BlockHash;

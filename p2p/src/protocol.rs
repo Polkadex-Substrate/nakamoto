@@ -1,8 +1,8 @@
 //! Bitcoin protocol state machine.
 #![warn(missing_docs)]
-use crossbeam_channel as chan;
+use flume as chan;
 use log::*;
-
+use std::prelude::v1::*;
 pub mod addrmgr;
 pub mod cbfmgr;
 pub mod channel;
