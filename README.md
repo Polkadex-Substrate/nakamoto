@@ -1,5 +1,6 @@
-nakamoto
+nakamoto (SGX-PORT)
 ========
+NOTE: Test, wallet and node is not ported to SGX and will not work in this branch
 
 Nakamoto is a privacy-preserving Bitcoin light-client implementation in Rust,
 with a focus on low resource utilization, modularity and security.
